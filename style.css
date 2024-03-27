@@ -1315,11 +1315,17 @@ a img.aligncenter {
     display: block;
     text-align: center;
     width: 100%;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 .logos img:hover {
     opacity: 1;
+}
+
+.logos > .wow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .desc h3 i {
